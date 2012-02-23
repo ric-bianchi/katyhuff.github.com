@@ -1,12 +1,12 @@
 body{
-font-family: "ff-providence-sans-web-pro-1","ff-providence-sans-web-pro-2",sans-serif;
+font-family: 'IM Fell English SC', arial, serif; 
 }
 
 #content{
-background-color:#9BBAB2;
-width:462px;
+background-color:#3CB371;
+width:600px;
 }
 
 a{
-color:#452F27;
+color:#336699;
 }
