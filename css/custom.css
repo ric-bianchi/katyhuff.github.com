@@ -4,10 +4,11 @@ font-family: 'IM Fell English SC', arial, serif;
 
 #content{
 opacity:0.8;
-background-color:#858988;
+background-color:#D3DDDE;
 width:580px;
 }
 
 a{
-color:#172434;
+font-weight:bold;
+color:#6D3B22;
 }
