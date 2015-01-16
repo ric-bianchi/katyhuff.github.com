@@ -1,5 +1,6 @@
 body{
-font-family: 'IM Fell English SC', arial, serif; 
+  font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+  font-weight:500;
 }
 
 #content{
@@ -9,6 +10,7 @@ width:580px;
 }
 
 a{
-font-weight:bold;
+font-weight:500;
 color:#6D3B22;
 }
+
