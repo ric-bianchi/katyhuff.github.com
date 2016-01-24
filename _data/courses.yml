@@ -1,0 +1,42 @@
+- title: <++>
+  institution: <++>
+  semester: <++>
+  year: <++>
+  days: <++>
+  time: <++>
+  location: <++>
+  pic: <++>
+  helpers: 
+   - name: <++>
+     email: <++>
+  url: "<++>"
+  description: "<++>"
+
+- title: <++>
+  institution: <++>
+  semester: <++>
+  year: <++>
+  days: <++>
+  time: <++>
+  location: <++>
+  pic: <++>
+  helpers: 
+   - name: <++>
+     email: <++>
+  url: "<++>"
+  description: "<++>"
+
+- title: <++>
+  institution: <++>
+  semester: <++>
+  year: <++>
+  days: <++>
+  time: <++>
+  location: <++>
+  pic: <++>
+  helpers: 
+   - name: <++>
+     email: <++>
+  url: "<++>"
+  description: "<++>"
+

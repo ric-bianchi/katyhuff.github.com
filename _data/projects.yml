@@ -1,0 +1,43 @@
+- name: cyclus
+  network: github
+  dates: 2010-present
+  role: Original creator and continued contributor.
+  src: https://github.com/cyclus/cyclus
+  url: https://fuelcycle.org
+  description: 'A C++ nuclear fuel cycle simulation framework'
+  
+- name: cycamore
+  pic: http://fuelcycle.org/_static/big_c.png
+  network: github
+  dates: 2010-present
+  role: Original creator and continued contributor.
+  src: https://github.com/cyclus/cycamore
+  url: https://fuelcycle.org
+  description: 'Cyclus addtional modules repository.'
+  
+- name: cyder
+  pic: http://katyhuff.github.io/2016-01-19-uta/images/cyder.png
+  network: github
+  dates: 2011-2013
+  role: Original creator and continued contributor.
+  src: https://github.com/katyhuff/cyder
+  url: https://katyhuff.github.io/cyder
+  description: 'Cyder is an integrated used fuel disposition and generic repository model for fuel cycle analysis. (C++) This was my ph.d. dissertation work.'
+
+- name: pyne
+  pic: http://pyne.io/_static/pyne_icon_small.png
+  network: github
+  dates: 2011-present
+  role: Advocate and occaisional contributor.
+  src: https://github.com/pyne
+  url: https://pyne.io
+  description: 'PyNE is a nuclear engineering toolkit. (C++ and python)'
+
+- name: pyrk
+  pic: http://pyrk.github.io/_images/logo.png
+  network: github
+  dates: 2015-present
+  role: Original creator and continued contributor.
+  src: https://github.com/pyrk/pyrk
+  url: https://pyrk.github.io
+  description: 'A python package for neutron kinetics'
