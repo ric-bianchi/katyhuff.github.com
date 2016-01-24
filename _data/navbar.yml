@@ -1,0 +1,39 @@
+- title: "About"
+  url: "/about/"
+
+- title: "CV"
+  url: "/cv/"
+
+- title: "Research"
+  url: "/research/"
+  subcategories:
+    - subtitle: "Publications"
+      suburl: "/research/publications/"
+    - subtitle: "Projects"
+      suburl: "/research/projects"
+    - subtitle: "Code"
+      suburl: "/research/code"
+
+
+- title: "Teaching"
+  url: "/teaching/"
+  subcategories:
+    - subtitle: "Workshops"
+      suburl: "/teaching/workshops"
+    - subtitle: "Past Courses"
+      suburl: "/teaching/past"
+    - subtitle: "Current Courses"
+      suburl: "/teaching/current"
+
+- name: "Advising"
+  url: "advising/"
+  subcategories:
+    - subtitle: "How To Get An A"
+      suburl: "/teaching/ace"
+    - subtitle: "Reference Letters"
+      suburl: "/for-students/reference-req/"
+    - subtitle: "Working with Me"
+      suburl: "/for-students/working-with-me/"
+
+- name: "Contact"
+  url: "social/"
