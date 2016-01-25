@@ -7,5 +7,13 @@ url: "http://katyhuff.github.io" # the base hostname & protocol for your site
 twitter_username: katyhuff
 github_username: katyhuff
 
+# Agency color settings
+color:
+  primary: fed136
+  secondary: fec503
+  secondary-dark: 333
+  transparent: rgba(24,24,24,0.7)
+
 # Build settings
 markdown: kramdown
+permalink: pretty
