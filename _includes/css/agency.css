@@ -247,7 +247,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .sub-menu a:hover {
-	color: #{{ site.color.primary }};
+    color: #{{ site.color.primary }};
 }
 .navbar-default  .sub-menu {
     border-color: #{{ site.color.secondary }};
@@ -256,26 +256,26 @@ fieldset[disabled] .btn-xl.active {
 
 
 .sub-menu {
-	border: 3px solid transparent;
-	display: none;
-	right: -10px;
-	padding: 4px 0 3px 0;
-	position: absolute;
-	text-align: left;
-	text-transform: none;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 3px solid transparent;
+    display: none;
+    right: -10px;
+    padding: 4px 0 3px 0;
+    position: absolute;
+    text-align: left;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .sub-menu li {
-	margin: 5px 5px 10px 5px;
-	border-bottom: 0;
-	display: block;
-	height: auto;
-	text-align: left;
+    margin: 5px 5px 10px 5px;
+    border-bottom: 0;
+    display: block;
+    height: auto;
+    text-align: left;
 }
 
 .navbar-default li:hover > .sub-menu {
-	display: block;
+    display: block;
 }
 
 
