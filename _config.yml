@@ -17,3 +17,31 @@ color:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Jekyll Scholar
+scholar:
+  style: chicago-author-date
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bibliography
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+  
+  repository: papers

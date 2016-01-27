@@ -677,6 +677,32 @@ section h3.section-subheading {
     }
 }
 
+/* taken from rabernathy. thanks */
+
+.project {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.project img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.project h4 {
+    text-align: left;
+}
+
+.project h5 {
+    text-align: left;
+    font-style: italic;
+}
+
+
+.project p {
+    text-align: left;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;

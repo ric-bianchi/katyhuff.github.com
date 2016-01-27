@@ -1,4 +1,17 @@
+- title: The Hacker Within Scientific Computing Seminar
+  number: BIDS
+  institution: University of California, Berkeley
+  semester: Spring
+  year: 2016
+  days: W
+  time: 3:30pm
+  location: 190 Doe Library
+  pic: /img/thwlogo_dark_bg.png
+  url: http://thehackerwithin.github.io/berkeley
+  description: "The Hacker Within is a scientific computing seminar."
+
 - title: <++>
+  number: <++>
   institution: <++>
   semester: <++>
   year: <++>
@@ -11,32 +24,3 @@
      email: <++>
   url: "<++>"
   description: "<++>"
-
-- title: <++>
-  institution: <++>
-  semester: <++>
-  year: <++>
-  days: <++>
-  time: <++>
-  location: <++>
-  pic: <++>
-  helpers: 
-   - name: <++>
-     email: <++>
-  url: "<++>"
-  description: "<++>"
-
-- title: <++>
-  institution: <++>
-  semester: <++>
-  year: <++>
-  days: <++>
-  time: <++>
-  location: <++>
-  pic: <++>
-  helpers: 
-   - name: <++>
-     email: <++>
-  url: "<++>"
-  description: "<++>"
-

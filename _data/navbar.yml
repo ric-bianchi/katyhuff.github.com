@@ -1,6 +1,3 @@
-- title: "About"
-  url: "/about/"
-
 - title: "CV"
   url: "/cv/"
 
@@ -10,11 +7,9 @@
     - subtitle: "Publications"
       suburl: "/research/publications/"
     - subtitle: "Presentations"
-      suburl: "/research/presentationss"
-    - subtitle: "Projects"
-      suburl: "/research/projects"
-    - subtitle: "Code"
-      suburl: "/research/code"
+      suburl: "/research/presentations"
+    - subtitle: "Software"
+      suburl: "/research/software"
     - subtitle: "Other"
       suburl: "/research/other"
 
