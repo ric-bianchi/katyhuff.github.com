@@ -1,0 +1,41 @@
+- title: A Pythonic Future for Science Education 
+  event: Supercomputing Conference, Workshop on Python For High Performance Computing
+  type: Keynote
+  place: Austin, TX
+  month: November
+  day: 15
+  year: 2015
+  time: 2:00pm
+  pic: /img/presentations/pyhpc_logo.png
+  slides: http://katyhuff.github.io/2015-11-15-pyhpc
+  description: 'Detailed computational models, massively parallelized calculations, and enormously collaborative simulation projects are increasingly integral to the advancement of science. However, the caliber of this work is limited by a workforce lacking formal training in essential software development skills. To address this unmet need, a number of initiatives (e.g. Software Carpentry, Data Carpentry) have developed online resources and led short courses addressing software development best practices such as version control and test driven code development, as well as basic skills such as UNIX mobility. With the exception of the Software Carpentry Drivers License for High Performance Computing, however, these initiatives stop just shy of parallelization concepts and skills, and their scalability and sustainability is further limited by the volunteer power on which they run. 
+
+The challenge at hand will only be sustainably solved when best practices in research-grade scientific computing have penetrated the traditional science and engineering curriculum in universities. This talk will describe a new effort to embed best practices for reproducible, application-focused, research-grade scientific computing into traditional university curriculum. In particular, a set of open source, liberally licensed, IPython (now Jupyter) notebooks are being developed and tested to accompany a book “Effective Computation in Physics: A Field Guide to Research in Python.” These interactive lecture materials lay out in-class exercises for a project-driven university course and are accordingly intended to be forked, modified and reused by professors across universities and disciplines. With Python as a teaching language, this course prepares university students for research at scale by approaching practical scientific computing challenges such as data structures, performant simulation design, hierarchical data storage, parallelization, analysis, and visualization.'
+
+- title: A Computational Future For Science Education
+  event: National Center for Supercomputing Applications
+  type: Colloquium
+  place: University of Illinois, Urbana, IL
+  month: November
+  day: 6
+  year: 2015
+  time: 11:00am
+  pic: /img/presentations/2015-11-06-ncsa.png
+  vid: https://www.youtube.com/watch?v=jYET0KJbNRU
+  slides: http://katyhuff.github.io/2015-11-06-ncsa/
+  description: 'Detailed computational models, massively parallelized calculations, and enormously collaborative simulation projects are increasingly integral to the advancement of science. However, the caliber of this work is limited by a workforce lacking formal training in a reproducible, transparent, software development skill suite that is becoming increasingly essential. To address this unmet need, a number of initiatives (e.g. Software Carpentry, Data Carpentry, and The Hacker Within) have developed online resources, led short courses, and nurtured local communities addressing software development best practices such as version control and test driven code development, as well as basic skills such as UNIX mobility. In addition to unique contributions such as a Drivers License for High Performance Computing, Software Carpentry conducts workshops at research institutions around the world. These workshops seek to provide time efﬁcient introductions to essential programming languages and tools without turning “biochemists and mechanical engineers into computer scientists”. The Hacker Within similarly nurtures a peer-driven community for scientific computing skill sharing. It does so through regular meetings in a few local chapters around the world, including one at the University of Illinois.
+
+The scalability and sustainability of these initiatives, however, is limited by the volunteer power on which they run, so their challenge will only be sustainably solved when best practices in scientific computing have penetrated the traditional science and engineering curriculum in universities. This talk will describe one new effort to embed best practices for reproducible scientific computing into traditional university curriculum. In particular, a set of open source, liberally licensed, IPython (now Jupyter) notebooks are being developed and tested to accompany a book “Effective Computation in Physics.” These interactive lecture materials lay out in-class exercises for a project-driven upper-level undergraduate course and are accordingly intended to be forked, modified and reused by professors across universities and disciplines.'
+
+- title: <++> 
+  event: <++>
+  type: <++>
+  place: <++>
+  month: <++>
+  day: <++>
+  year: <++>
+  time: <++>
+  pic: https://<++>
+  vid: https://<++>
+  slides: https://<++>
+  description: '<++>'
