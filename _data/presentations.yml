@@ -27,6 +27,17 @@ The challenge at hand will only be sustainably solved when best practices in res
 
 The scalability and sustainability of these initiatives, however, is limited by the volunteer power on which they run, so their challenge will only be sustainably solved when best practices in scientific computing have penetrated the traditional science and engineering curriculum in universities. This talk will describe one new effort to embed best practices for reproducible scientific computing into traditional university curriculum. In particular, a set of open source, liberally licensed, IPython (now Jupyter) notebooks are being developed and tested to accompany a book “Effective Computation in Physics.” These interactive lecture materials lay out in-class exercises for a project-driven upper-level undergraduate course and are accordingly intended to be forked, modified and reused by professors across universities and disciplines.'
 
+- title: Consolidated Fuel Treatment Center and Advanced Burner Reactor
+  event: University of Chicago Big Problems Energy Analysis Course
+  type: Seminar
+  place: Chicago, IL
+  month: June
+  day: ??
+  year: 2008
+  pic: /img/presentations/2008-06-00-big-probs.png
+  slides: /pres/biris_consolidated_2008.pdf
+  description: '<++>'
+
 - title: <++> 
   event: <++>
   type: <++>
@@ -39,3 +50,82 @@ The scalability and sustainability of these initiatives, however, is limited by 
   vid: https://<++>
   slides: https://<++>
   description: '<++>'
+
+- title: <++> 
+  event: <++>
+  type: <++>
+  place: <++>
+  month: <++>
+  day: <++>
+  year: <++>
+  time: <++>
+  pic: https://<++>
+  vid: https://<++>
+  slides: https://<++>
+  description: '<++>'
+
+- title: <++> 
+  event: <++>
+  type: <++>
+  place: <++>
+  month: <++>
+  day: <++>
+  year: <++>
+  time: <++>
+  pic: https://<++>
+  vid: https://<++>
+  slides: https://<++>
+  description: '<++>'
+
+- title: <++> 
+  event: <++>
+  type: <++>
+  place: <++>
+  month: <++>
+  day: <++>
+  year: <++>
+  time: <++>
+  pic: https://<++>
+  vid: https://<++>
+  slides: https://<++>
+  description: '<++>'
+
+- title: <++> 
+  event: <++>
+  type: <++>
+  place: <++>
+  month: <++>
+  day: <++>
+  year: <++>
+  time: <++>
+  pic: https://<++>
+  vid: https://<++>
+  slides: https://<++>
+  description: '<++>'
+
+- title: <++> 
+  event: <++>
+  type: <++>
+  place: <++>
+  month: <++>
+  day: <++>
+  year: <++>
+  time: <++>
+  pic: https://<++>
+  vid: https://<++>
+  slides: https://<++>
+  description: '<++>'
+
+- title: <++> 
+  event: <++>
+  type: <++>
+  place: <++>
+  month: <++>
+  day: <++>
+  year: <++>
+  time: <++>
+  pic: https://<++>
+  vid: https://<++>
+  slides: https://<++>
+  description: '<++>'
+
