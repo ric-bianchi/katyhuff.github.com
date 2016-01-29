@@ -1,13 +1,13 @@
 {% for item in site.data.navbar %}
     {% if item.subcategories != null %}
-    <li><a href="{{ item.url }}" class="page-link">{{ item.title }}</a>
+    <li><a class="page-scroll" href="{{ item.url }}" class="page-link">{{ item.title }}</a>
     <ul class="sub-menu">
     {% for subcategory in item.subcategories %}
-    <li><a href="{{ subcategory.suburl }}">{{ subcategory.subtitle }}</a></li>
+    <li><a class="page-scroll" href="{{ subcategory.suburl }}">{{ subcategory.subtitle }}</a></li>
     {% endfor %}
     </ul>
     {% else %}
-     <li><a href="{{ item.url }}" class="page-link">{{ item.title }}</a>
+     <li><a class="page-scroll" href="{{ item.url }}" class="page-link">{{ item.title }}</a>
     {% endif %}
     </li>
     {% endfor %}
