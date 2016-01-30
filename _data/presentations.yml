@@ -38,56 +38,50 @@ The scalability and sustainability of these initiatives, however, is limited by 
   slides: /pres/biris_consolidated_2008.pdf
   description: '<++>'
 
-- title: <++> 
-  event: <++>
-  type: <++>
-  place: <++>
-  month: <++>
-  day: <++>
-  year: <++>
-  time: <++>
-  pic: https://<++>
-  vid: https://<++>
+- title: Beam Plug Project and Second Chip Project 
+  event: Los Alamos Neutron Science Center (LANSCE-3)
+  type: REU Summer Seminar
+  place: Los Alamos, NM
+  month: August
+  day: ??
+  year: 2003
+  pic: /img/pres/huff_beam_2003_pres.png
   slides: https://<++>
+  slides: /pres/huff_beam_2003_pres.pdf
   description: '<++>'
 
-- title: <++> 
-  event: <++>
-  type: <++>
-  place: <++>
+- title: Cyclus: An Open, Modular, Next Generation Fuel Cycle Simulator Platform 
+  event: Waste Management Symposium
+  type: Poster
+  place: Phoenix, AZ
   month: <++>
   day: <++>
-  year: <++>
-  time: <++>
-  pic: https://<++>
-  vid: https://<++>
-  slides: https://<++>
+  year: 2011
+  pic: /img/pres/huff_cyclus_2011_pres.png
+  slides: /pres/huff_cyclus_2011_pres.pdf 
   description: '<++>'
 
-- title: <++> 
-  event: <++>
-  type: <++>
+- title: Cyclus Fuel Cycle Simulation Capabilities with the Cyder Disposal System Model
+  event: American Nuclear Society Conference
+  type: Conference Presentation
   place: <++>
-  month: <++>
-  day: <++>
-  year: <++>
+  month: October
+  day: 3
+  year: 2013
   time: <++>
-  pic: https://<++>
-  vid: https://<++>
-  slides: https://<++>
+  pic: /img/pres/huff_cyclus_2013_pres.png
+  slides: /pres/huff_cyclus_2013_pres.pdf
   description: '<++>'
 
-- title: <++> 
-  event: <++>
-  type: <++>
-  place: <++>
+- title: Digital Filtering Applications to the Lead Slowing Down Spectrometer 
+  event: Los Alamos Neutron Science Center (LANSCE-3)
+  type: REU Summer Seminar
+  place: Los Alamos, NM
   month: <++>
   day: <++>
-  year: <++>
-  time: <++>
-  pic: https://<++>
-  vid: https://<++>
-  slides: https://<++>
+  year: 2004
+  pic: /img/pres/huff_digital_2004_pres.png
+  slides: /img/pres/huff_digital_2004_pres.png
   description: '<++>'
 
 - title: <++> 
