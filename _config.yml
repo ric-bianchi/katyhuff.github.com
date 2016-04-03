@@ -9,9 +9,10 @@ github_username: katyhuff
 
 # Agency color settings
 color:
-  primary: fed136
-  secondary: fec503
-  secondary-dark: 333
+  primary: e87722
+  primary-dark: d45d00
+  secondary: 606eb2
+  secondary-dark: 002058
   transparent: rgba(24,24,24,0.7)
 
 # Build settings

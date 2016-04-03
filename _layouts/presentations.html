@@ -16,7 +16,7 @@ layout: default
         <div class="container">
             <div class="row project">
                 <div class="col-md-4">
-                        <h3 class="text-muted">{{ topic.month }}{% if topic.day %}{{ topic.day }},{% endif %} {{ topic.year }}</h3>
+                        <h3 class="text-muted">{{ topic.month }}{% if topic.day %} {{ topic.day }},{% endif %} {{ topic.year }}</h3>
                         {% if topic.time %}<h3 class="text-muted">{{ topic.time }}</h3>{% endif %}
                         <a href="{{ topic.slides }}"><img src="{{ topic.pic }}" class="img-responsive" alt="{{ topic.name }}"></a>
                         <h3 class="text-muted">({{ topic.type }})</h3>
@@ -25,7 +25,9 @@ layout: default
                         <h4>{{ topic.title }}</h4>
                         <h5>{{ topic.event }}</h4>
                         <p class="text-muted"><i>{{ topic.place }}</i></p>
+                        {% if topic.description %}
                         <p class="text-muted">{{ topic.description }}</p>
+                        {% endif %}
                         {% if topic.slides %}<p><i class="fa fa-image"></i> <a href="{{ topic.slides }}">{{ topic.slides }}</a></p>{% endif %}
                         {% if topic.vid %}<p><i class="fa fa-play"></i> <a href="{{ topic.vid }}">{{ topic.vid }}</a></p>{% endif %}
                 </div>
@@ -34,5 +36,3 @@ layout: default
         {% endfor %}
     </div>
     </section>
-    
-
