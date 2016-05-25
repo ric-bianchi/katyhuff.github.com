@@ -57,6 +57,8 @@ h6 {
     font-weight: 700;
 }
 
+.nounderline{text-decoration: none}
+
 .img-centered {
     margin: 0 auto;
 }
