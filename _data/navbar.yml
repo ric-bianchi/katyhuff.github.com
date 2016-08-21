@@ -24,5 +24,7 @@
 - title: "Contact"
   url: "/contact/"
   subcategories:
+    - subtitle: "Info"
+      suburl: "/contact/"
     - subtitle: "Appointments"
       suburl: "/contact/appointments"
