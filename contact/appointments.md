@@ -1,9 +1,8 @@
 ---
-layout: default
-title: Appointments
+layout: page
+title: Book Me
+subtitle: This web app syncs with my calendar and will send us both an email. 
 ---
-
-# Book Me
 
 <iframe 
 src="https://katyhuff.youcanbook.me/?noframe=true&skipHeaderFooter=true" 
