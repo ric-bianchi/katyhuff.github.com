@@ -10,8 +10,6 @@
       suburl: "/research/presentations"
     - subtitle: "Software"
       suburl: "/research/software"
-    - subtitle: "Other"
-      suburl: "/research/other"
 
 
 - title: "Teaching"
@@ -23,16 +21,6 @@
       suburl: "/teaching/past"
     - subtitle: "Workshops"
       suburl: "/teaching/workshops"
-
-- title: "Advising"
-  url: "/advising/"
-  subcategories:
-    - subtitle: "Prospective Students"
-      suburl: "/advising/prospective"
-    - subtitle: "Current Students"
-      suburl: "/advising/current"
-    - subtitle: "General Resources"
-      suburl: "/advising/general"
 
 - title: "Contact"
   url: "/contact/"
