@@ -10,6 +10,13 @@ layout: default
                     <h2 class="section-heading">{{ page.title }}</h2>
                     <h3 class="section-subheading text-muted">{{ page.subtitle }}</h3>
                 </div>
+                {% if page.intro %}
+                <div class="col-md-3 text-muted">
+                </div>
+                <div class="col-md-6 text-muted text-center">
+                           {{ page.intro }}
+                </div>
+		{% endif %}
             </div>
         </div>
     {{ content }}

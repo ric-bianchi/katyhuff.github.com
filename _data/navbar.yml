@@ -37,7 +37,7 @@
 - title: "Contact"
   url: "/contact/"
   subcategories:
-    - subtitle: "Calendar"
-      suburl: "/contact/calendar"
+    - subtitle: "Office"
+      suburl: "/contact/office"
     - subtitle: "Appointments"
       suburl: "/contact/appointments"

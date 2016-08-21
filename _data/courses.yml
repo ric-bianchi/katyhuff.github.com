@@ -1,3 +1,18 @@
+- title: Nuclear Power Economics and Fuel Management
+  number: NPRE 412
+  institution: University of Illinois at Urbana-Champaign
+  semester: Fall
+  year: 2016
+  days: MWF
+  time: 10:00am-10:50am
+  location: Engineering Hall 106B3
+  pic: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Nuclear_Fuel_Cycle.svg/820px-Nuclear_Fuel_Cycle.svg.png"
+  helpers: 
+   - name: TBD
+     email: TBA
+  url: "https://github.com/katyhuff/npre412"
+  description: "Quantitative assessment of technology and economics within the nuclear fuel cycle."
+
 - title: The Hacker Within Scientific Computing Seminar
   number: BIDS
   institution: University of California, Berkeley
@@ -10,17 +25,3 @@
   url: http://thehackerwithin.github.io/berkeley
   description: "The Hacker Within is a scientific computing seminar."
 
-- title: <++>
-  number: <++>
-  institution: <++>
-  semester: <++>
-  year: <++>
-  days: <++>
-  time: <++>
-  location: <++>
-  pic: <++>
-  helpers: 
-   - name: <++>
-     email: <++>
-  url: "<++>"
-  description: "<++>"

@@ -1,23 +1,100 @@
 ---
 layout: default
+title: Katy Huff
+subtitle: Assistant Professor, Nuclear, Plasma, and Radiological Engineering
 ---
 
-<div class="home">
+<!-- Page -->
+    <section id="code" class="{% cycle '', 'bg-light-gray' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ page.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ page.subtitle }}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-subheading text-muted">
+			This is the home page of Kathryn Huff, an Assistant Professor at the <a href="http://illinois.edu">University of Illinois at Urbana-Champaign</a> in the Department <a href="http://npre.illinois.edu">Nuclear, Plasma, and Radiological Engineering</a>.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<!--- NEWS -->
+    <section id="news" class="{% cycle '', 'bg-light-gray' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">News</h2>
+                    <h3 class="section-subheading text-muted">Updates from Katy.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+		    {% for post in site.posts %}
+                    <span class="post-meta"><h2>{{ post.date | date: "%b %-d, %Y" }}</h2></span>
+			<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+		    {% endfor %}
+		<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<!--- LICENSE -->
+    <section id="license" class="{% cycle '', 'bg-light-gray' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">License</h2>
+                    <h3 class="section-subheading text-muted">This website and
+                            all its contents are CC-BY-4.0 licensed.
+                     So, you may share and adapt this material as long as
+                        you give appropriate credit, provide a link to the
+                        license, and indicate if changes were made. You may do
+                        so in any reasonable manner, but not in any way that
+                        suggests the licensor endorses you or your use.
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center">
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Advanced Reactors and Fuel Cycles</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="arfc.github.io" property="cc:attributionName" rel="cc:attributionURL">ARFC Research Group</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="github.com/arfc/arfc.github.io" rel="dct:source">github.com/arfc/arfc.github.io</a>.
 
-</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--- Software
+    <section id="software" class="{% cycle '', 'bg-light-gray' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Software</h2>
+                    <h3 class="section-subheading text-muted">Simulation leverages the ubiquity of data, the efficiency of computation, and the purity of mathematics toward scientific discovery.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    <p class="large text-muted">This group strives create reproducible, transparent, extendible research products.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="code">
+                        <li>
+                            <h4><i class="fa fa-{{ code.network }}"></i> &nbsp;
+                            <a href="{{ code.url }}">{{code.name}}</a></h4>
+                            <p>{{code.description}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
