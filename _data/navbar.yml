@@ -2,7 +2,7 @@
   url: "/cv/"
 
 - title: "Research"
-  url: "/research/"
+  url: "http://arfc.npre.illinois.edu"
   subcategories:
     - subtitle: "Publications"
       suburl: "/research/publications/"
