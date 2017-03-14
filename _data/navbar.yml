@@ -3,13 +3,6 @@
 
 - title: "Research"
   url: "http://arfc.npre.illinois.edu"
-  subcategories:
-    - subtitle: "Publications"
-      suburl: "/research/publications/"
-    - subtitle: "Presentations"
-      suburl: "/research/presentations"
-    - subtitle: "Software"
-      suburl: "/research/software"
 
 - title: "Teaching"
   url: "/teaching/"
