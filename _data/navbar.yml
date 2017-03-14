@@ -7,6 +7,8 @@
 - title: "Teaching"
   url: "/teaching/"
   subcategories:
+    - subtitle: "Future"
+      suburl: "/teaching/future"
     - subtitle: "Current"
       suburl: "/teaching/current"
     - subtitle: "Past"

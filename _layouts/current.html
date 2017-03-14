@@ -14,8 +14,7 @@ layout: default
         </div>
 
         {% for course in site.data.courses %}
-            {% if course.year == page.year %}
-                {% if course.semester == page.semester %}
+            {% if course.year == page.year and course.semester == page.semester %}
         <div class="container">
             <div class="row project">
                 <div class="col-md-4">
@@ -36,7 +35,6 @@ layout: default
                 </div>
             </div>
         </div>
-                {% endif %}
             {% endif %}
         {% endfor %}
     </div>
