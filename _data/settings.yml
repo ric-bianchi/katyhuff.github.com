@@ -13,7 +13,8 @@ google-ID: 'UA-39307176-5'
 
 menu:
 - {name: 'About', url: 'about.html'}
-- {name: 'Writing', url: 'writing.html'}
+- {name: 'Research', url: 'research.html'}
+- {name: 'Blog', url: 'writing.html'}
 - {name: 'Contact', url: 'contact.html'}
 
 social:

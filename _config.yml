@@ -4,6 +4,11 @@ paginate:            5
 
 # Build settings
 markdown:            kramdown
+kramdown:
+  input: GFM
+
 highlighter:         rouge
 permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap]
+
+exclude: [BKP, dependencies.txt]

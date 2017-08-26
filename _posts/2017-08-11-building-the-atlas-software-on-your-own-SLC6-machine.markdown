@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building the ATLAS software on your own machine
+title: Building the ATLAS software on your own SLC6 machine
 date: '2017-08-11 15:48:36'
 tags:
 - computing
@@ -8,6 +8,12 @@ tags:
 ---
 
 *This post is a WORK IN PROGRESS!*
+
+### Table of Contents
+{:.no_toc}
+
+1. TOC
+{:toc}
 
 # Building Externals
 
@@ -25,7 +31,7 @@ Thus, we have to tell **Athena** which version of **AtlasExternals** to compile.
 
 Let's suppose we have a branch called `myBranch` in our fork of **AtlasExternals**, and we want to build that to build other Athena packages on top of those externals.
 
-We start adding the URL of our own GitLab repository to the script which sets the download of the AtlasExternals from GitLab: `athena/Projects/Athena/build_externals.sh`. 
+We start adding the URL of our own GitLab repository to the script which sets the download of the AtlasExternals from GitLab: `athena/Projects/Athena/build_externals.sh`.
 
 We modify the original version:
 
@@ -43,7 +49,7 @@ And this is the modified version, where we added the URL of our own GitLab  repo
 ${scriptsdir}/checkout_atlasexternals.sh \
     -t ${AthenaExternalsVersion} \
     -s ${BUILDDIR}/src/AthenaExternals 2>&1 \
-    -e https://:@gitlab.cern.ch:8443/rbianchi/atlasexternals.git | tee ${BUILDDIR}/src/checkout.AthenaExternals.log 
+    -e https://:@gitlab.cern.ch:8443/rbianchi/atlasexternals.git | tee ${BUILDDIR}/src/checkout.AthenaExternals.log
 ```
 
 Then, we have to tell the Athena script which tag or branch we want to clone and compile; we do that by updating the file `athena/Projects/Athena/externals.txt`.
@@ -94,11 +100,11 @@ In fact, Gaudi is not even tried to be built if the build of the other Externals
 
 ## Working on the AthenaExternals build
 
-Sometimes something could go wrong in the CMake configuration, and you might want to try different settings in the CMakeLists.txt file of an External module. 
+Sometimes something could go wrong in the CMake configuration, and you might want to try different settings in the CMakeLists.txt file of an External module.
 
 Let's say, for example, that the configuration for the **EXPAT** external package does not work, and the package is not found during the CMake configuration; Thus, you want to try to fix that.
 
-Expat is one of the external packages we directly pick from the LCG release, without compiling them by our own. So the configuration is stored in 
+Expat is one of the external packages we directly pick from the LCG release, without compiling them by our own. So the configuration is stored in
 
 Usually, the build script has to download the AthenaExternals configuration from GitLab, for a clean build. So, when you finished testing your new fix in your local build of AthenaExternals and you want to test your new settings with Athena, please remember to push your changes to the branch to which the `build_externals.sh` script is pointed, otherwise your new changes will not be taken into account.
 
@@ -112,7 +118,7 @@ I got this error from the package If you see this error:
 
 ```bash
 [313/41133] Generating GeoPrimitivesDictReflexDict.cxx
-FAILED: DetectorDescription/GeoPrimitives/CMakeFiles/GeoPrimitivesDict.dsomap DetectorDescription/GeoPrimitives/CMakeFiles/GeoPrimitivesDictReflexDict.cxx x86_64-slc6-gcc62-opt/lib/libGeoPrimitivesDict_rdict.pcm 
+FAILED: DetectorDescription/GeoPrimitives/CMakeFiles/GeoPrimitivesDict.dsomap DetectorDescription/GeoPrimitives/CMakeFiles/GeoPrimitivesDictReflexDict.cxx x86_64-slc6-gcc62-opt/lib/libGeoPrimitivesDict_rdict.pcm
 cd /home_slc6/rbianchi/code_local
 [...]
 sh /home_slc6/rbianchi/code_local/vp1_rel21_puttingEverythinTogether_CoinAtlas/build/build/Athena/DetectorDescription/GeoPrimitives/CMakeFiles/makeGeoPrimitivesDictReflexDict.sh
@@ -139,7 +145,7 @@ fatal error: expat.h: No such file or directory
 
 ### "makeinfo is missing"
 
-The program `makeinfo` is part of the package `tex-info`, ad it is needed to compile `Gdb`. 
+The program `makeinfo` is part of the package `tex-info`, ad it is needed to compile `Gdb`.
 
 Apparently, `text-info` is not installed by default on plain SLC6 machines.
 
@@ -291,7 +297,7 @@ enabled=0
 priority=20
 
 [ol6_playground_latest]
-name=Latest mainline stable kernel for Oracle Linux 6 ($basearch) - Unsupported 
+name=Latest mainline stable kernel for Oracle Linux 6 ($basearch) - Unsupported
 baseurl=http://public-yum.oracle.com/repo/OracleLinux/OL6/playground/latest/$basearch/
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
 gpgcheck=1
@@ -317,7 +323,7 @@ Now you should see the new command `/usr/bin/makeinfo`, and you should be able t
 mkdir build/build/Athena
 cd build/build/Athena
 lsetup python -f # needed if custom versions of Python are set in your system, like Anaconda
-# those are not needed anymore, they were needed when wanted to get another LCG release than the standard one 
+# those are not needed anymore, they were needed when wanted to get another LCG release than the standard one
 # --> export LCG_RELEASE=/cvmfs/sft.cern.ch/lcg/releases
 # --> asetup none,gcc62 --cmakesetup --noLcgReleaseBase
 asetup none,gcc62 --cmakesetup
@@ -342,7 +348,7 @@ At this point we can choose what builder to sue to build the Athena packages: we
 
 
 ```bash
-# this is not needed if Externals build was successful! --> export 
+# this is not needed if Externals build was successful! --> export
 cmake ../../../athena/Projects/Athena/ 2>&1 | tee cmake_config.log
 ```
 
@@ -385,7 +391,3 @@ If we want to use a nightly build of Gaudi instead of building our own version, 
 ```bash
 export GAUDI_ROOT=/cvmfs/atlas-nightlies.cern.ch/repo/sw/master/2017-07-31T2251/GAUDI/22.0.0/InstallArea/x86_64-slc6-gcc62-opt # taking Gaudi from the nightly
 ```
-
-
-
-
