@@ -85,4 +85,4 @@ Recently, I also conceived, promoted and started two interdisciplinary projects,
 
 ## 2003 (*CERN* (Switzerland) and *"Roma Tre" University* (Italy))
 
-* Studying of implementations of multi-threading techniques (NGPT, NPTL) in the Linux Kernel and their effect on the ATLAS Data Flow
+* Study of different implementations of **multi-threading** techniques (NGPT, NPTL) in the **Linux Kernel** and their effect on the **ATLAS Data Flow**
