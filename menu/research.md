@@ -19,11 +19,12 @@ In particular my activities focused on:
 * New tools to persistify, handle and serve geometry data. The last phase of this project involves the design and the deployment of RESTful data services on clusters, through graph databases (Neo4j) and search engines (ElasticSearch)
 * A Machine Learning + Visualization project, in collaboration with Argonne (US), to classify and analyze events through the analysis of graphical representation of physics data
 
-Recently, I also conceived, promoted and started two interdisciplinary projects, mainly in *Digital Humanities*, through collaborations with two external Institutes, in order to apply the techniques and the tools I develop for Particle Physics in other fields:
+Recently, I also conceived, promoted and started two interdisciplinary projects, mainly in *Digital Humanities*, through collaborations with two external Institutes:
 
-* EPFL (Losanne) - Newtowrk visualization of collaboration data, focused on the visualization of large collaborations of institutes and people, to extract information about the connections. That project implies complex tasks of scouting, collection and cleaning of very heterogeneus data (papers, theses, reports, HR data, collaboration data, ...). The common project is based on the work done at EPFL and it aims at the visualization of data about the ATLAS Collaboration.
-* UNIGE (Geneve) - Machine learning techniques applied to computational linguistics  
+* EPFL (Losanne) - Network visualization of collaboration data, focused on the visualization of large collaborations of institutes and people, to extract information about the connections. That project implies complex tasks of scouting, collection and cleaning of very heterogeneous data (papers, theses, reports, HR data, collaboration data, ...). The common project is based on the work done at EPFL and it aims at the visualization of data about the ATLAS Collaboration.
+* UNIGE (Geneve) - Machine learning techniques applied to computational linguistics.   
 
+<!-- in order to apply the techniques and the tools I develop for Particle Physics in other fields: -->
 
 
 ## 2012--2017 (*"University of Pittsburgh"*, USA)
@@ -84,4 +85,4 @@ Recently, I also conceived, promoted and started two interdisciplinary projects,
 
 ## 2003 (*CERN* (Switzerland) and *"Roma Tre" University* (Italy))
 
-* Studying of implementations of multi-threading techniques (NGPT, NPTL) in the Linux Kernel and their effect on the ATLAS Data Flow 
+* Studying of implementations of multi-threading techniques (NGPT, NPTL) in the Linux Kernel and their effect on the ATLAS Data Flow
