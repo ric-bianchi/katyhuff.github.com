@@ -49,7 +49,7 @@ Recently, I also conceived, promoted and started two interdisciplinary projects,
 * Outreach & Education:
   * interactive web-based data visualization  for Outraech & Educational projects
   * outreach content to explain things and engage. I really think that one of the scientist to-do is to give back some of teh acquired knolwedge to other people: each person has a job, our as scientists is studying, one has to give back
-* Pesrsistification of geometry data for HEP Detector Description
+* Persistification of geometry data for HEP Detector Description
 * Data modeling for large datasets of eterogenous data
 * Efficient Data handling Algorithms
 * Small-memory-footprint modeling of data
