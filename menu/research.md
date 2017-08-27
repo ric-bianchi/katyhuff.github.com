@@ -3,10 +3,11 @@ layout: page
 title: Research
 ---
 
-I have a *PhD* in *Particle Physics* and my main research activities are in the fields of
-Data Analysis/Data Science, Data Visualization and Development of Scientific Software.
+I have a *PhD* in *Particle Physics* and I am a Postdoctoral Fellow at [University of Pittsburgh](http://www.physicsandastronomy.pitt.edu/people/riccardo-maria-bianchi), but I am based at CERN, in Geneva (Switzerland), where I work within the ATLAS Experiment on the Large Hadron Collider (LHC).
 
-I am a Postdoctoral Fellow at [University of Pittsburgh](http://www.physicsandastronomy.pitt.edu/people/riccardo-maria-bianchi), but I am based at CERN, in Geneva (Switzerland), where I work within the ATLAS Experiment on the Large Hadron Collider (LHC).
+My main research activities are in the fields of
+Data Analysis/Data Science, Data Visualization, Development of Scientific Software.
+
 
 In the last 11 years I have worked on very different topics, which let me acquire a broad knowledge of the needs and the possible issues involved in the design and running a scientific experiment.
 
@@ -14,9 +15,14 @@ In particular my activities focused on:
 
 ## Current work-in-progress projects
 
-...
-di' che hai promosso e iniziato progetti con istituti esterni, tra cui EPFL (Network visualization) e UNIGE (Machine learning applied to Language...la roba delle concordanze)
-...
+* Design and development of new common tools for interactive data visualization, with a server-client architecture and *in-situ* characteristics.
+* New tools to persistify, handle and serve geometry data. The last phase of this project involves the design and the deployment of RESTful data services on clusters, through graph databases (Neo4j) and search engines (ElasticSearch)
+* A Machine Learning + Visualization project, in collaboration with Argonne (US), to classify and analyze events through the analysis of graphical representation of physics data
+
+Recently, I also conceived, promoted and started two interdisciplinary projects, mainly in *Digital Humanities*, through collaborations with two external Institutes, in order to apply the techniques and the tools I develop for Particle Physics in other fields:
+
+* EPFL (Losanne) - Newtowrk visualization of collaboration data, focused on the visualization of large collaborations of institutes and people, to extract information about the connections. That project implies complex tasks of scouting, collection and cleaning of very heterogeneus data (papers, theses, reports, HR data, collaboration data, ...). The common project is based on the work done at EPFL and it aims at the visualization of data about the ATLAS Collaboration.
+* UNIGE (Geneve) - Machine learning techniques applied to computational linguistics  
 
 
 
@@ -33,33 +39,20 @@ di' che hai promosso e iniziato progetti con istituti esterni, tra cui EPFL (Net
 * Detector Description
 * Math libraries
 * 3D graphics
-
 * Efficient data analysis with C++
 * Multi-threading and Parallel Computing
-
-* Parallel Data Analysis (Reduction???)
-* --> better? Developing paralellel algorithms for efficient data reduction
-
-
-* Digital Humanities: I started two collaboration on Digital Humanities with external institutes, to apply teh techniques and the tools I develop for Particle Physics in other fields
-  * Visualization of Collaborations and Networks -- with EPFL -- focused on the Visualization of large collaborations of institutes and people, to extract information about the connections. That project implies complex tasks of scouting, collection and cleaning of very heterogeneus data (papers, theses, reports, HR data, collaboration data, ...)
-  * Machine Learning and -- with UNIGE --
-
-
-
+* Parallel Data Analysis
+* Developing multi-threaded algorithms for efficient data reduction
 * Volunteer Computing
 * In-situ data visualization for volunteer computing
 * Outreach & Education:
   * interactive web-based data visualization  for Outraech & Educational projects
   * outreach content to explain things and engage. I really think that one of the scientist to-do is to give back some of teh acquired knolwedge to other people: each person has a job, our as scientists is studying, one has to give back
-
-
-(GeoModel related)
+* Pesrsistification of geometry data for HEP Detector Description
 * Data modeling for large datasets of eterogenous data
 * Efficient Data handling Algorithms
 * Small-memory-footprint modeling of data
 * Data persistence
-
 * Virtual Reality for Scientific Data Visualization
 
 
@@ -70,7 +63,7 @@ di' che hai promosso e iniziato progetti con istituti esterni, tra cui EPFL (Net
 * DB
 * RealTime DB
 * Data Visualization
-
+* GUI programming
 
 ## 2007--2010 (*"Freiburg Universität"*, Germany)
 
@@ -88,3 +81,7 @@ di' che hai promosso e iniziato progetti con istituti esterni, tra cui EPFL (Net
 * Statistical Data Analysis
 * Simulation of physical systems
 * MonteCarlo techniques
+
+## 2003 (*CERN* (Switzerland) and *"Roma Tre" University* (Italy))
+
+* Studying of implementations of multi-threading techniques (NGPT, NPTL) in the Linux Kernel and their effect on the ATLAS Data Flow 
