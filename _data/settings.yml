@@ -1,5 +1,5 @@
 title:  Riccardo Maria Bianchi
-tagline:  Particle Physics and Scientific Software
+tagline:  PhD, Particle Physicist
 author:
   name: 'Riccardo Maria Bianchi'
   twitter:  RicMBianchi
@@ -14,7 +14,7 @@ google-ID: 'UA-39307176-5'
 menu:
 - {name: 'About', url: 'about.html'}
 - {name: 'Research', url: 'research.html'}
-- {name: 'Blog', url: 'writing.html'}
+- {name: 'Writing', url: 'writing.html'}
 - {name: 'Contact', url: 'contact.html'}
 
 social:

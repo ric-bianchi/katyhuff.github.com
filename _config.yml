@@ -1,6 +1,6 @@
 # Site Settings
 
-paginate:            5
+#paginate:            5
 
 # Build settings
 markdown:            kramdown
@@ -10,5 +10,8 @@ kramdown:
 highlighter:         rouge
 permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap]
+
+includes:
+- pages
 
 exclude: [BKP, dependencies.txt]
