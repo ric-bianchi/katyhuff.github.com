@@ -1,4 +1,4 @@
-# Riccardo Maria BIANCHI's personal blog
+# Riccardo Maria BIANCHI's personal website
 
 
 A minimalist Jekyll-based web site for running a personal blog. Theme: "Lagrange", by [Paul Le](https://lenpaul.github.io/Lagrange/).
