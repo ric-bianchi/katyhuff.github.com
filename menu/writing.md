@@ -1,24 +1,21 @@
 ---
 layout: page
-title: Blog
+title: Writing
 ---
-<ul class="posts">
-  {% for post in site.posts %}
 
-    {% unless post.next %}
-      <h3>{{ post.date | date: '%Y' }}</h3>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-        <h3>{{ post.date | date: '%Y' }}</h3>
-      {% endif %}
-    {% endunless %}
+## The textbook I contributed to has just been published!
 
-    <li itemscope>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d" }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
-    </li>
+!["Applied Computational Physics" cover](/assets/img/pages/acp_cover.jpg)
 
-  {% endfor %}
-</ul>
+
+[_Applied Computational Physics_](https://global.oup.com/academic/product/applied-computational-physics-9780198708643?lang=en&cc=ch), published by _Oxford University Press_, is a comprehensive resource of topics and techniques interesting to theoretical and experimental physicists, engineers, and scientists in general.
+
+The book is full of hands-on instructions, with examples and exercises written in modern C++ programming language.
+
+
+
+<!-- You can find my writing at my physics&science blog, where I like sharing my curiosity and my passion about the Universe we all live in. -->
+
+<hr>
+
+If you are an ATLAS physicist or you work in scientific software programming, you might find some useful information in my [techy, geeky blog](../blog.html).
