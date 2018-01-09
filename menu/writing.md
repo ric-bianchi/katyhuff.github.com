@@ -5,10 +5,13 @@ title: Writing
 
 ## The textbook I contributed to has just been published!
 
-!["Applied Computational Physics" cover](/assets/img/pages/acp_cover.jpg)
+<a href="https://global.oup.com/academic/product/applied-computational-physics-9780198708643" target="_blank">
+   !["Applied Computational Physics" cover](/assets/img/pages/acp_cover.jpg)
+</a>
 
 
-[_Applied Computational Physics_](https://global.oup.com/academic/product/applied-computational-physics-9780198708643?lang=en&cc=ch), published by _Oxford University Press_, is a comprehensive resource of topics and techniques interesting to theoretical and experimental physicists, engineers, and scientists in general.
+
+[_Applied Computational Physics_](https://global.oup.com/academic/product/applied-computational-physics-9780198708643), published by _Oxford University Press_, is a comprehensive resource of topics and techniques interesting to theoretical and experimental physicists, engineers, and scientists in general.
 
 The book is full of hands-on instructions, with examples and exercises written in modern C++ programming language.
 
