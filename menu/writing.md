@@ -18,4 +18,4 @@ The book is full of hands-on instructions, with examples and exercises written i
 
 <hr>
 
-If you are an ATLAS physicist or you work in scientific software programming, you might find some useful information in my [techy, geeky blog](../blog.html).
+I also have a [technical blog](../blog.html) (a very techy, geeky blog), mainly as a lab notebook. But if you are an ATLAS physicist or you work in scientific software programming, you might find some useful information in it. my .
