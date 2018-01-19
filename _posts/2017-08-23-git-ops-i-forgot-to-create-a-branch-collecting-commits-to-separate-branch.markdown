@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Git - Ops! I forgot to create a branch! How I can collect my latest commits in a separate branch now?'
+title: 'Git - Ops! I forgot to create a branch! How can I collect my latest commits in a separate branch now?'
 ---
 
 ## "Ops! I forgot to create a branch!"
