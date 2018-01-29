@@ -24,6 +24,12 @@ tags:
 The build of Externals in the nightly builds starts by cloning a specific version of the **AthenaExternals** project from GitLab.
 
 Hence, if we need to modify the Externals, before running the script we should create a feature branch on GitLab, where we can modify the code.
+
+Let's start making our own copy of the code, by forking the ATLAS Externals repository on GitLab: https://gitlab.cern.ch/atlas/atlasexternals.
+If you don't know how to fork and clone the ATLAS software, please take a look at this piece of documentation: https://atlassoftwaredocs.web.cern.ch/gittutorial/.
+
+Now that you have a clean clone of the ATLAS Externals on your machine, let's start working on that.
+
 For example, if we only want to compile a subset of the Externals packages, we could edit the file `atlasexternals/Projects/AthenaExternals/package_filters.txt`, to only
 compile the packages we need.
 
