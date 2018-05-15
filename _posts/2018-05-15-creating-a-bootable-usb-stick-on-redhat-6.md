@@ -1,5 +1,5 @@
 
-# How to create a bootable USB memeory stick from an ISO file, on RedHat 6
+## How to create a bootable USB memory stick from an ISO file, on RedHat 6
 
 Today I needed to make a bootable USB from an ISO image file, on my Red Hat Enterprise 6 (SLC6) machine. In particular, I had to install Ubuntu on my RedHat machine. 
 
