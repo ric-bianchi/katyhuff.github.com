@@ -21,7 +21,7 @@ Here below the summary of all the steps:
 
 5. Copy the `.iso` file to the USB key (again: it will **ERASE** the USB key's content!), using the path of the iso file as input and the device name of the USB stick as output; the `bs` value is optional but setting it to a large value speeds up the process:
 
-    dd if=/downloads/ubuntu-14.04-desktop-amd64.iso of=/dev/sdc bs=512k
+        dd if=/downloads/ubuntu-14.04-desktop-amd64.iso of=/dev/sdc bs=512k
 
    a) You can check the `bs` values of the input iso file with:
 
