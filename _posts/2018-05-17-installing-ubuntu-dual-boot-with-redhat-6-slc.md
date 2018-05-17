@@ -13,10 +13,10 @@ Just tested:
 
 What I did to create a bootable USB memory stick for Ubuntu on RedHat 6 (SLC6):
 
-http://www.riccardomariabianchi.com/creating-a-bootable-usb-drive-on-redhat-6.html
+<http://www.riccardomariabianchi.com/creating-a-bootable-usb-drive-on-redhat-6.html>
  
 General instructions to create a bootable USB flash drive:
 
- * On Windows: https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows
- * On Mac: 
- * On Linux (RedHat 6): https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/installation_guide/sect-making-usb-media
+ * On Windows: <https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows>
+ * On Mac: <https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos>
+ * On Linux (RedHat 6): <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/installation_guide/sect-making-usb-media>
