@@ -3,7 +3,7 @@ layout: post
 title: 'Installing Ubuntu in dual-boot mode along with RedHat Enterprise 6 / SLC6'
 ---
 
-I have a machine running SLC6 (RedHat Enterprise 6) and I needed to install Ubuntu to make some tests. To install it, [I made a bootable USB stick](http://www.riccardomariabianchi.com/creating-a-bootable-usb-drive-on-redhat-6.html). But then, I found that not all the Ubuntu versions installed correctly. Here below the outcome of the tests I did.
+I have a machine running SLC6 (RHEL 6) and I needed to install Ubuntu to make some tests. To install it, [I made a bootable USB stick](http://www.riccardomariabianchi.com/creating-a-bootable-usb-drive-on-redhat-6.html). But then, I found that not all the Ubuntu versions installed correctly. Here below the outcome of the tests I did.
 
 Just tested:
 
