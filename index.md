@@ -17,4 +17,4 @@ I coordinate the activities of the "Visualization" working group of the [HEP Sof
 
 <a href="/menu/writing.html"><img alt="book cover" align="left" width="100" hspace="20" src="/assets/img/pages/acp_cover.jpg"></a>
 
-Besides writing my scientific papers, I recently contributed to the book [_Applied Computational Physics_](/menu/writing.html), which is out now, published by Oxford University Press.
+Besides writing scientific papers, I recently contributed to the book [_Applied Computational Physics_](/menu/writing.html), which is out now, published by [Oxford University Press](https://global.oup.com/academic/product/applied-computational-physics-9780198708643?cc=ch&lang=en&).

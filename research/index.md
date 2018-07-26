@@ -3,6 +3,7 @@ layout: page
 title: Research
 ---
 
+
 I have a *PhD* in *Particle Physics* and I am a Postdoctoral Fellow at [University of Pittsburgh](http://www.physicsandastronomy.pitt.edu/people/riccardo-maria-bianchi), but I am based at CERN, in Geneva (Switzerland), where I work within the ATLAS Experiment on the Large Hadron Collider (LHC).
 
 My main research activities are in the fields of
