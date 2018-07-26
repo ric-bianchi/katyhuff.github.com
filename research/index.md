@@ -9,6 +9,7 @@ I have a *PhD* in *Particle Physics* and I am a Postdoctoral Fellow at [Universi
 My main research activities are in the fields of
 Data Analysis/Data Science, Data Visualization, Development of Scientific Software.
 
+On my [Publications](publications.html) page you can find my scientific papers and publication.
 
 In the last 11 years I have worked on very different topics, which let me acquire a broad knowledge of the needs and the possible issues involved in the design and running a scientific experiment.
 
