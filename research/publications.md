@@ -5,7 +5,13 @@ title: Publications
 
 Riccardo authored and co-authored more than 700 papers, mainly in the fields of **particle physics** and **scientific computing**.
 
-Here below you can find a short list of selected publications, plus links to pages where you can find all Riccardo's publications.
+The complete list of all Riccardo's publications is listed and indexed on these profile pages:
+
+ * [inSPIRE](https://inspirehep.net/author/profile/R.M.Bianchi.1)
+ * [ORCID](https://orcid.org/0000-0001-7345-7798)
+ * [Scopus](https://www.scopus.com/authid/detail.uri?authorId=44460933500)
+
+Here below you can find a short list of selected publications:
 
 * [Selected publications](#selected-publications)
     * [Books](#books)
@@ -15,7 +21,6 @@ Here below you can find a short list of selected publications, plus links to pag
     * [Conference proceedings](#selected-conference-proceedings)
     * [Notes, Technical reports, Whitepapers](#selected-notes-technical-reports-and-whitepapers)
     * [PhD Thesis](#phd-thesis)
-* [All publications](#all-publications)
 
 <hr>
 ## Selected publications
@@ -24,12 +29,16 @@ A list of Riccardo's **selected publications**:
 
 ### Books
 
- * contributed to the textbook _"Applied Computational Physics"_, by J.Boudreau and E.Swanson, Oxford University Press (2017)
+ * _"Applied Computational Physics"_, by J.Boudreau and E.Swanson, Oxford University Press (2017)
 
 
 ### Selected journal articles
 
 #### Particle Physics / High Energy Physics
+
+* BIANCHI, ATLAS Collaboration, "A strategy for a general search for new phenomena using data-derived signal regions and its application within the ATLAS experiment", submitted to Eur. Phys. J. C,  _preprint_: <https://arxiv.org/abs/1807.07447> - (2018)
+
+* BIANCHI, ATLAS Collaboration, "Search for dark matter in events with a hadronically decaying vector boson and missing transverse momentum in pp collisions at s√=13 TeV with the ATLAS detector", submitted to JHEP, _preprint_: <https://arxiv.org/abs/1807.11471> - (2018)
 
 * BIANCHI, ATLAS Collaboration, "Combined Measurement of the Higgs Boson Mass in pp Collisions at √s=7 and 8 TeV with the ATLAS and CMS Experiments", Phys. Rev. Lett. 114, 191803 - <https://doi.org/10.1103/PhysRevLett.114.191803> - (2015)
 
@@ -46,6 +55,7 @@ A list of Riccardo's **selected publications**:
 #### Scientific Computing
 
 * BIANCHI, BRUNELIERE, "WatchMan Project - A Python CASE framework for High Energy Physics data analysis in the LHC era”, Journal of Computational Science, Elsevier - <http://dx.doi.org/10.1016/j.jocs.2012.04.005> - (2012)
+
 
 
 ### Selected conference proceedings
@@ -109,10 +119,3 @@ A list of Riccardo's **selected publications**:
 Bianchi, "A model-independent "General Search" for new physics with the ATLAS detector at LHC", "Albert-Luedwig-Universitaet", Freiburg, Germany, (2014) - <http://cds.cern.ch/record/1757501>
 
 <hr>
-## All publications
-
-The complete list of all Riccardo's publications is listed and indexed on these web pages:
-
- * [inSPIRE](https://inspirehep.net/author/profile/R.M.Bianchi.1)
- * [Scopus](https://www.scopus.com/authid/detail.uri?authorId=44460933500)
- * [arXiV](https://orcid.org/0000-0001-7345-7798)
