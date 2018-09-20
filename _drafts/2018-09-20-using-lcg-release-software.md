@@ -22,7 +22,7 @@ CERN maintains a software bundle called LCG, which contains many packages used i
 
 There are other ways to set up the LCG software.
 
-You can setup a specific package from a specific LCG release  built for a specific platform, by using the command `lsetup "lcgenv <args>"`, as shown here below. In some cases, like with Qt5, this also sets the related environemt variables:
+You can setup a specific package from a specific LCG release  built for a specific platform, by using the command `lsetup "lcgenv <args>"`, as shown here below (Thanks, Attila, for the example). In some cases, like with Qt5, this also sets the related environemt variables:
 
 ```bash
     [rbianchi@vp1-dev-slc6] $ lsetup "lcgenv -p LCG_94 x86_64-slc6-gcc62-opt Qt5"
@@ -55,5 +55,16 @@ You can setup a specific package from a specific LCG release  built for a specif
     [rbianchi@vp1-dev-slc6] $ echo $QT5_HOME 
     /cvmfs/sft.cern.ch/lcg/releases/LCG_94/qt5/5.11.1/x86_64-slc6-gcc62-opt
  ```
+ 
+ ## How to build Athena with a different LCG release
+ 
+ In order to build Athena, or an Athena package, witha different LCG release than the default one, you need to build AtlasExternals first, with a modified version of the CMakeLists.txt file, where the LCG release number is set (Thanks, Ed, for the pointer):
+ 
+ <https://gitlab.cern.ch/atlas/atlasexternals/blob/master/Projects/AthenaExternals/CMakeLists.txt>
+ 
+ After that, you can build Athena.
+ 
+ It's quite a chore, however: the compilation takes a while, so be prepared.
+ 
  
  
