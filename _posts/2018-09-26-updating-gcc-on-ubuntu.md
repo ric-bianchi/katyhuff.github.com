@@ -20,7 +20,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 I found very complete and detailed instructions on how to install an updated version of GCC on Ubuntu, here:
 
-https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91
+<https://gist.github.com/application2000/73fd6f4bf1be6600a2cf9f56315a2d91>
 
 Thanks, Alexandre ELISÉ / application2000, for these instructions!!
 I repeat them here, as a personal reference in case the Gist will be moved or deleted.
@@ -59,4 +59,5 @@ g++ (Ubuntu 6.4.0-17ubuntu1~16.04) 6.4.0 20180424
 ```
 
 And now, the compilation of the ATLAS package just works...! 
+
 Thanks again, Scott and Alexandre!
