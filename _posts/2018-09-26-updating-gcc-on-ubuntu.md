@@ -1,3 +1,7 @@
+---
+layout: post
+title: Updating the C/C++ compiler GCC on Ubuntu
+---
 
 I got a strange error this morning, on my Ubuntu workstation, from one of the packages of the ATLAS *Athena* software framework:
 
