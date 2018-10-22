@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'makeinfo' not found! Installing 'texinfo' on SLC6
+title: "'makeinfo' not found! Installing 'texinfo' on SLC6"
 ---
 
 While compiling the ATLAS Externals packages on a custom SLC6 machine, I git the error `makeinfo: command not found` error from the "Gdb" package:
