@@ -11,7 +11,7 @@ config.status: creating config.h
 config.status: config.h is unchanged
 config.status: executing default commands
 config.status: executing depdir commands
-/home/rbianchi/dev/ATLINFR-2636/buildax/src/Gdb/missing: line 81: makeinfo: command not found
+/home/user/dev/buildax/src/Gdb/missing: line 81: makeinfo: command not found
 WARNING: 'makeinfo' is missing on your system.
          You should only need it if you modified a '.texi' file, or
          any other file indirectly affecting the aspect of the manual.
