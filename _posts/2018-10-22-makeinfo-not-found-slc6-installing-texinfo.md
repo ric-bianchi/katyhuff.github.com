@@ -6,7 +6,7 @@ title: "makeinfo not found! Installing 'texinfo' on SLC6"
 While compiling the ATLAS Externals packages on a custom SLC6 machine, I git the error `makeinfo: command not found` error from the "Gdb" package:
 
 ```bash
-installing zh_CN.gmo as /home/rbianchi/dev/ATLINFR-2636/buildax/External/Gdb/CMakeFiles/GdbBuild/share/locale/zh_CN/LC_MESSAGES/opcodes.mo
+installing zh_CN.gmo as /home/user/dev/buildax/External/Gdb/CMakeFiles/GdbBuild/share/locale/zh_CN/LC_MESSAGES/opcodes.mo
 config.status: creating config.h
 config.status: config.h is unchanged
 config.status: executing default commands
